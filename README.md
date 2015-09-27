@@ -13,7 +13,7 @@ The goal of this document is to find a nice "standard" which could be applied to
  - It is in late Beta and should be ready soon - it looks awesome!
  - It runs separately to themes/plugins
  - Talks to Envato API to find theme/plugin version numbers and to download latest theme/plugin zip files
- - Currently requires every buyer to register a Personal Token on http://build.envato.com (*todo: improve*)
+ - Currently requires every buyer to register a Personal Token on http://build.envato.com (*todo: asking buyer to register an API key sucks hard! Especially when oAuth is available to us. See oAuth improvement idea below*)
  
 ### How to install the Envato Market plugin:
 
