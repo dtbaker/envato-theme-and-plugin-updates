@@ -2,19 +2,26 @@
 
 Some ideas on theme and plugin updates for the Envato market.
 
+Please fork and do a pull request with any changes/ideas (or just submit an <a href="https://github.com/dtbaker/envato-theme-and-plugin-updates/issues">issue</a>)
+
 The goal of this document is to find a nice "standard" which could be applied to all WordPress Themes and Plugins on the Envato Market. This would bring a more consistent installation and updating experience to all Market items. 
 
 
 ### The Envato Market WordPress plugin:
 
  - This plugin was created by @valendesigns to replace the old Envato Toolkit plugin
+ - It is in late Beta and should be ready soon - it looks awesome!
  - It runs separately to themes/plugins
  - Talks to Envato API to find theme/plugin version numbers and to download latest theme/plugin zip files
  - Currently requires every buyer to register a Personal Token on http://build.envato.com (*todo: improve*)
  
 ### How to install the Envato Market plugin:
 
-### The `envato.json` file (proposal):
+ - Obvious choice is by using http://tgmpluginactivation.com - the plugin could be installed automatically on Theme activation. Also possible for plugins, however TGMP usage in plugins isn't really widespread and may be a hard requirement to push on CodeCanyon peeps. 
+ - Better choice would be a dedicated nag script and install helper (WooCommerce does something similar). A single file is added to every Theme/Plugin zip file. This is instead of TGMP, however it could be added to all themes/plugins automatically and not conflict with TGMP. Example simple nag script is here: <a href="https://github.com/dtbaker/envato-theme-and-plugin-updates/blob/master/envato-market-helper.php">envato-market-helper.php</a> 
+
+
+### The `envato.json` file:
 
  - This file should be in the root of every theme/plugin on the Envato market.
  - This file can be easily generated and applied to existing uploads, or generated during the item approval process if one doesn't exist (similar to including License information).
