@@ -2,7 +2,9 @@
 
 Some ideas on theme and plugin updates for the Envato market.
 
-Please fork and do a pull request with any changes/ideas (or just submit an <a href="https://github.com/dtbaker/envato-theme-and-plugin-updates/issues">issue</a>)
+Everything here would work without any new special dev work from Envato. There are better options that would require Envato dev work but that is a discussion for another day. 
+
+Feel free to submit an <a href="https://github.com/dtbaker/envato-theme-and-plugin-updates/issues">issue</a> with any new ideas/feedback.
 
 The goal of this document is to find a nice "standard" which could be applied to all WordPress Themes and Plugins on the Envato Market. This would bring a more consistent installation and updating experience to all Market items. 
 
