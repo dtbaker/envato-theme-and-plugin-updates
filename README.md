@@ -56,6 +56,7 @@ Here is a custom `envato.json` file:
       "item_id": "2751380",
       "name": "Slider Revolution",
       "version": "1.2.4"
+     }
   ],
   "plugin_update_url": "https://dtbaker.net/envato/bundled_plugin_update.php"
 ```
@@ -64,7 +65,7 @@ Here is a custom `envato.json` file:
  - `plugins[]`: this lists all Envato plugins that are bundled in this theme. An appropriate Extended License and Author Permission should be obtained as per http://themeforest.net/licenses/faq#small-element-stock-a 
  - `plugins[]  version`: this will lock a bundled plugin to a specified version. This allows theme authors to prevent a plugin from showing "Update Available" messages so they can ensure plugin compatibility and manually release the update.
  - `plugin_update_url`: if the Envato Market plugin detects an available bundled plugin update, this endpoint is used to verify the buyers purchase of the theme and redirect WordPress to the latest plugin zip file hosted on Envato. This allows the individual components of a theme (e.g. Visual Composer) to be updated without the parent theme getting updated first. This reduces quite a few problems (theme updates breaking custom changes) and frees up reviewers time (i.e. no more approving a theme just because it includes a bundled plugin update). 
- - 
+
  
 ### Envato API Changes
 
